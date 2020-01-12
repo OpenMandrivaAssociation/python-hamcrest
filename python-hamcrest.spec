@@ -2,8 +2,8 @@
 
 Summary:	Hamcrest matchers for Python
 Name:		python-hamcrest
-Version:	1.9.0
-Release:	2
+Version:	1.10.0
+Release:	1
 Group:		Development/Python
 License:	MIT
 Url:		https://github.com/hamcrest/PyHamcrest
