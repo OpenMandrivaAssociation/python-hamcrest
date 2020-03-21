@@ -2,7 +2,7 @@
 
 Summary:	Hamcrest matchers for Python
 Name:		python-hamcrest
-Version:	1.10.0
+Version:	2.0.2
 Release:	1
 Group:		Development/Python
 License:	MIT
@@ -10,8 +10,8 @@ Url:		https://github.com/hamcrest/PyHamcrest
 Source0:	https://github.com/hamcrest/PyHamcrest/archive/V%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3egg(setuptools)
-BuildRequires:	python3egg(six)
+BuildRequires:	python3dist(setuptools)
+BuildRequires:	python3dist(six)
 
 %description
 Matchers that can be combined to create flexible expressions of intent
@@ -21,8 +21,8 @@ Matchers that can be combined to create flexible expressions of intent
 Summary:	Hamcrest matchers for Python2
 Group:		Development/Python
 BuildRequires:	pkgconfig(python2)
-BuildRequires:	pythonegg(setuptools)
-BuildRequires:	pythonegg(six)
+BuildRequires:	python2dist(setuptools)
+BuildRequires:	python2dist(six)
 
 %description -n python2-hamcrest
 Matchers that can be combined to create flexible expressions of intent
